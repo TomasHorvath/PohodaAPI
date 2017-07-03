@@ -1,0 +1,4 @@
+C:\Users\Tomáš Horváth\Source\Repos\PohodaAPI\Tomas.Horvath.PohodaAPI\TomasHorvath.PohodaAPI.Entity\bin\Debug\TomasHorvath.PohodaAPI.Entity.dll
+C:\Users\Tomáš Horváth\Source\Repos\PohodaAPI\Tomas.Horvath.PohodaAPI\TomasHorvath.PohodaAPI.Entity\bin\Debug\TomasHorvath.PohodaAPI.Entity.pdb
+C:\Users\Tomáš Horváth\Source\Repos\PohodaAPI\Tomas.Horvath.PohodaAPI\TomasHorvath.PohodaAPI.Entity\obj\Debug\TomasHorvath.PohodaAPI.Entity.dll
+C:\Users\Tomáš Horváth\Source\Repos\PohodaAPI\Tomas.Horvath.PohodaAPI\TomasHorvath.PohodaAPI.Entity\obj\Debug\TomasHorvath.PohodaAPI.Entity.pdb

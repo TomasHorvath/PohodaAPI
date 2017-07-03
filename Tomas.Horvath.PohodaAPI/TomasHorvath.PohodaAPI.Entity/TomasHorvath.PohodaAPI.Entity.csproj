@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFB98722-FF49-4483-A437-22721D08B63D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TomasHorvath.PohodaAPI.Entity</RootNamespace>
+    <AssemblyName>TomasHorvath.PohodaAPI.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="response.designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XSD\accountancy.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\accountingunit.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\actionPrice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\addressbook.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\balance.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\bank.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\bankAccount.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\cashRegister.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\category.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\contract.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\data-package.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\data.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\documentresponse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\enquiry.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\filter.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\groupStocks.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\individualPrice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\intDoc.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\intParam.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\inventoryLists.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\invoice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\list.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\list_addBook.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\list_contract.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\list_stock.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\mKasa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\numericalSeries.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\offer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\order.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\parameter.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\payment.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\prevodka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\prijemka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\print.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\prodejka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\response.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\sendEET.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\stock.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\storage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\store.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\supplier.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\type.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\voucher.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\vydejka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\vyroba.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
